@@ -1,0 +1,17 @@
+{
+	"build": "public",
+	"theme": "bigspring.git",
+	"theme_config": {
+		"bigspring.git": {
+			"url": "git@github.com:plenti-themes/bigspring.git",
+			"commit": "b92f39dc4f9f0fd7ecf05bcc84ad3ad1c5c78daf"
+		}
+	},
+	"types": {
+		"posts": "/blog/:filename",
+		"blog": "/blog/:paginate(totalPages)"
+	},
+	"local": {
+		"port": 3000
+	}
+}
