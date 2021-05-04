@@ -37,3 +37,22 @@
     </div>
   </div>
 </section>
+
+<style>
+  .btn-link {
+    color: #0aa8a7;
+  }
+  .btn-link {
+    font-weight: 400;
+    text-decoration: none;
+  }
+  .ti-arrow-right {
+    transition: padding-left ease .25s;
+  }
+  .btn-link:hover {
+    color: #1e8685;
+  }
+  .btn-link:hover .ti-arrow-right {
+    padding-left: 5px;
+  }
+</style>
