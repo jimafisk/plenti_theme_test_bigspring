@@ -1,4 +1,8 @@
 {
+  "meta": {
+    "desc": "Bigspring is a theme for the Plentico static site generator",
+    "keywords": "Plenti, Svelte, Go, SSG, JAMstack, Themes"
+  },
 	"components": [
 		{
 			"name": "hero",
@@ -7,7 +11,7 @@
 				"body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus",
 				"link": {
 					"title": "Contact with Us",
-					"url": "/contact"
+					"url": "contact"
 				},
 				"image": "/banner-art.svg"
 			}
@@ -58,7 +62,7 @@
 				"background": "",
 				"link": {
 					"title": "Check it out",
-					"url": "/",
+					"url": ".",
 					"alt": "all"
 				},
 				"image": {
@@ -76,7 +80,7 @@
 				"background": "blue",
 				"link": {
 					"title": "Check it out",
-					"url": "/"
+					"url": "."
 				},
 				"image": {
 					"position": "left",
@@ -93,7 +97,7 @@
 				"background": "",
 				"link": {
 					"title": "Check it out",
-					"url": "/"
+					"url": "."
 				},
 				"image": {
 					"position": "right",
@@ -110,11 +114,12 @@
 				"background": "blue",
 				"link": {
 					"title": "Check it out",
-					"url": "/"
+					"url": "."
 				},
 				"image": {
 					"position": "left",
-					"url": "/service-3.png"
+					"url": "/service-3.png",
+					"alt": "Generic bar chart"
 				}
 			}
 		},
@@ -138,7 +143,7 @@
 					"url": "/cta.svg"
 				},
 				"link": {
-					"url": "/contact",
+					"url": "contact",
 					"title": "Contact Us"
 				}
 			}

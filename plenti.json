@@ -2,18 +2,25 @@
 	"build": "public",
 	"baseurl": "/",
 	"theme": "bigspring.git",
+	"entrypoint": "global/html.svelte",
 	"theme_config": {
 		"bigspring.git": {
 			"url": "git@github.com:plenti-themes/bigspring.git",
-			"commit": "c7fb4781114cbe1120f8d6747cfd4b8dc179efe8"
+			"commit": "592ef731af460f6f573a8a4b504a9dbcbcd7b8c4"
 		}
 	},
 	"local": {
 		"port": 3000
 	},
 	"routes": {
-    "pages": "/:filename",
 		"blog": "/blog/:paginate(totalPages)",
+		"pages": "/:filename",
 		"posts": "/blog/:filename"
+	},
+	"cms": {
+		"repo": "",
+		"redirect_url": "",
+		"app_id": "",
+		"branch": ""
 	}
 }
