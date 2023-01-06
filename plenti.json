@@ -13,9 +13,9 @@
 		"port": 3000
 	},
 	"routes": {
-		"blog": "/blog/:paginate(totalPages)",
-		"pages": "/:filename",
-		"posts": "/blog/:filename"
+		"blog": "blog/:paginate(totalPages)",
+		"pages": ":filename",
+		"posts": "blog/:filename"
 	},
 	"cms": {
 		"repo": "",
