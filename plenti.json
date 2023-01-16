@@ -6,7 +6,7 @@
 	"theme_config": {
 		"bigspring.git": {
 			"url": "git@github.com:plenti-themes/bigspring.git",
-			"commit": "592ef731af460f6f573a8a4b504a9dbcbcd7b8c4"
+			"commit": "87ba21857d8625b7fa1a1fb2ba41f2b7ec6d0db5"
 		}
 	},
 	"local": {
